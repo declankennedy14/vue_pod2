@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
+  <div class="Hello World">
     <h1>{{ msg }}</h1>
   </div>
   <div class="card">
-    <img alt="real estate logo" src="./housepic.jpg">
-    <div class="card-content"> 
-      <h2>Two Pod Realty</h2> 
-      <p id="description">Real Estate Company Focused on delivering the best properties in the State College Area</p> 
+    <h2>New York Rangers</h2>
+    <img alt="real estate logo" src="https://elitesportsny.com/wp-content/uploads/2019/02/gettyimages-56613588-2-1362x766.jpg">
+    <div class="card-content">  
+      <p id="description">On this card, there is an iconic picture of the New York Rangers Stanley Cup win in 1994. This was the last time they won the Stanley Cup, where they bested the Vancouver Canucks in a seven-game series. They won with an electric goal in overtime of game 7, which resulted in a final score of 2-1 Rangers.</p> 
       <button class="details-button" id="detailsBtn">Details</button>
     </div> 
   </div> 
@@ -50,7 +50,7 @@ export default {
     // HEADING CHANGER
     document.querySelector('#Headingbtn').addEventListener('click', () => {
       const title = document.querySelector('h2');
-      title.innerText = "Super Pod 2 Realty";
+      title.innerText = "New York Rangers Win!";
     });
     
     // Card delete
@@ -97,8 +97,8 @@ a {
 .card {
   max-width: 400px;
   margin: 0 auto;
-  border: 1px solid #0C0B0B;
-  background-color: #0C0B0B;
+  border: 3px solid #000000;
+  background-color: #848484;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -119,8 +119,6 @@ h2 {
   font-size: 24px;
   margin: -10px 0;
   /* Background color and border */
-  background-color: #F8471B;
-  /* Background color */
   color: #fff;
   /* Text color on the background */
   padding: 8px 16px;
@@ -134,7 +132,6 @@ p {
 }
 
 a.details-button {
-  background-color: #EA5F0A;
   color: #fff;
   padding: 8px 16px;
   text-decoration: none;
